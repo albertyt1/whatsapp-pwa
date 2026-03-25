@@ -32,5 +32,17 @@ function goNext(){
 }
 </script>
 
+<h3 id="user"></h3>
+
+<script>
+const user = localStorage.getItem("userPhone");
+document.getElementById("user").innerText = user;
+</script>
+
+<script>
+if (!localStorage.getItem("userPhone")) {
+    window.location.href = "/whatsapp-pwa/login.html";
+}
+</script>
 </body>
 </html>
