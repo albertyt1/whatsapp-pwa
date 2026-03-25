@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial;
+}
+
+/* SPLASH */
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 80px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  color: gray;
+}
+
+/* GENERAL */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+p {
+  color: #aaa;
+}
+
+.sub {
+  font-size: 14px;
+}
+
+.green {
+  color: #25D366;
+}
+
+.center {
+  text-align: center;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+}
+
+.primary {
+  background: #25D366;
+  color: black;
+  font-weight: bold;
+}
+
+.secondary {
+  background: #222;
+  color: white;
+}
+
+.disabled {
+  background: #222;
+  color: #666;
+}
+
+/* CARD */
+.card {
+  background: #1c1c1c;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.country {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.phone {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+/* DIVIDER */
+.divider {
+  text-align: center;
+  color: gray;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <img src="assets/illustration.png" class="illustration">
+
+  <h1>Welcome to WhatsApp</h1>
+
+  <p>
+    Read our <span class="green">Privacy Policies</span>. Tap 
+    "Agree and continue" to accept our 
+    <span class="green">Terms of Service</span>.
+  </p>
+
+  <button onclick="goNext()" class="btn primary">
+    Agree and continue
+  </button>
+
+</div>
+
+<script>
+function goNext(){
+  window.location.href = "login.html";
+}
+</script>
+
+</body>
+</html>

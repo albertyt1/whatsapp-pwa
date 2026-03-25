@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Splash</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body class="center-screen">
+
+  <img src="assets/logo.png" class="logo">
+
+  <div class="bottom">
+    <p>from</p>
+    <h3>Meta</h3>
+  </div>
+
+<script>
+  setTimeout(() => {
+    window.location.href = "welcome.html";
+  }, 2000);
+</script>
+
+</body>
+</html>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
