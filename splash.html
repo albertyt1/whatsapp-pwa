@@ -3,16 +3,15 @@
 <head>
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Splash</title>
-  <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="/whatsapp-pwa/css/style.css">
   <!-- PWA -->
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/whatsapp-pwa/manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
 </head>
 
 <body class="center-screen">
 
-  <img src="assets/logo.png" class="logo">
+  <img src="/whatsapp-pwa/assets/logo.png" class="logo">
 
   <div class="bottom">
     <p>from</p>
@@ -21,7 +20,7 @@
 
 <script>
   setTimeout(() => {
-    window.location.href = "welcome.html";
+    window.location.href = "/whatsapp-pwa/welcome.html";
   }, 2000);
 </script>
 
@@ -30,6 +29,6 @@
 
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
+  navigator.serviceWorker.register('/whatsapp-pwa/service-worker.js');
 }
 </script>
